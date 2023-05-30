@@ -1,6 +1,6 @@
 import React from 'react';
 import { Howl } from 'howler';
-import { alphabet } from '../../data/data';
+import { alphabet } from '../../data/alphabet';
 import './Alphabet.css'
 
 const Alphabet = () => {
