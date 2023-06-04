@@ -1,0 +1,31 @@
+.Animals {
+    text-align: center;
+    font-size: 60px;
+    padding: 0px 10px;
+}
+.Animals h1{
+    font-size: 30px;
+}
+.AnimalBlock{
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.AnimalImg{
+    width: 250px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+.AnimalName{
+    font-size: 13px;
+
+}
+.Animal_MainBlock {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
