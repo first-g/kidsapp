@@ -34,3 +34,21 @@
 .alphabet__button p{
     font-size: 20px;
 }
+.Back{
+    width: 64px;
+    height: 64px;
+    position: fixed;
+}
+.ImgBack{
+    width: 64px;
+}
+.go{
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    justify-items: right;
+    margin-left: 1410px;
+}
+.ImgGo{
+    width: 120px;
+}
