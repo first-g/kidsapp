@@ -12,10 +12,11 @@ export const Animals = () => {
   }
   return (
     <div className='Animals'>
-     <h1>Жаныбарлар</h1>
-          <div className='Animal_MainBlock'>{animal.map((el,index)=>{
+     <h1>Животные</h1>
+     <br /> 
+          <div className='Animal_MainBlock' >{animal.map((el,index)=>{
           return(
-            <div onClick={()=>playSound(el.sound)} key={index} className='AnimalBlock'>
+            <div onClick={()=>playSound(el.sound)} key={index} className='AnimalBlock' style={{backgroundColor:el.color}}>
                <img src={el.img} alt=""  className='AnimalImg'/>
                <h1 className='AnimalName'>{el.Name}</h1>
             </div>
