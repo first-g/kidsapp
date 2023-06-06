@@ -16,8 +16,8 @@ export const Animals = () => {
   }
   return (
     <div className='Animals'>
-     <Link to={'/'}><div className="Back"><img src={ImgBack} alt="" className="ImgBack" /></div></Link>
-     <Link to={'/alphabet'}><div className="go"><img src={ImgGo} alt="" className="ImgGo" /></div></Link>
+     <Link to={'/kidsapp'}><div className="Back"><img src={ImgBack} alt="" className="ImgBack" /></div></Link>
+     <Link to={'/kidsapp/alphabet'}><div className="go"><img src={ImgGo} alt="" className="ImgGo" /></div></Link>
     
      <h1>Животные</h1>
      <br /> 

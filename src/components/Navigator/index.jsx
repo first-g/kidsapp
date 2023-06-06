@@ -5,9 +5,9 @@ export const MainNavigator = () => {
 
   return (
     <div className='MainNavigatorC'>
-            <Link to={'/alphabet'}><button className='Btn  '>Алфабит</button></Link>
-            <Link to={'/countries'}><button className='Btn'>Страны</button></Link>
-            <Link to={'/animals'}><button className='Btn'>Животные</button></Link>
+            <Link to={'/kidsapp/alphabet'}><button className='Btn  '>Алфабит</button></Link>
+            <Link to={'/kidsapp/countries'}><button className='Btn'>Страны</button></Link>
+            <Link to={'/kidsapp/animals'}><button className='Btn'>Животные</button></Link>
     </div>
 
   )

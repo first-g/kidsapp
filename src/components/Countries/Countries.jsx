@@ -15,8 +15,8 @@ const Countries = () => {
   };
   return (
     <div className="country_main">
-     <Link to={'/'}><div className="BackC"><img src={ImgBack} alt="" className="ImgBackC" /></div></Link>
-     <Link to={'/animals'}><div className="goC"><img src={ImgGo} alt="" className="ImgGoC" /></div></Link>
+     <Link to={'/kidsapp'}><div className="BackC"><img src={ImgBack} alt="" className="ImgBackC" /></div></Link>
+     <Link to={'/kidsapp/animals'}><div className="goC"><img src={ImgGo} alt="" className="ImgGoC" /></div></Link>
 
       <h1>Countries</h1>
       <div className="countries_main">

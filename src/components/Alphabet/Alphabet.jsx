@@ -16,8 +16,8 @@ const Alphabet = () => {
 
   return (
     <div className="alphabet">
-     <Link to={'/'}><div className="Back"><img src={ImgBack} alt="" className="ImgBack" /></div></Link>
-     <Link to={'/countries'}><div className="go"><img src={ImgGo} alt="" className="ImgGo" /></div></Link>
+     <Link to={'/kidsapp'}><div className="Back"><img src={ImgBack} alt="" className="ImgBack" /></div></Link>
+     <Link to={'/kidsapp/countries'}><div className="go"><img src={ImgGo} alt="" className="ImgGo" /></div></Link>
 
       <h1>Алфавит</h1>
       <div className="alphabet__main">
