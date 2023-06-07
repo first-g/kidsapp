@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/kidsapp/static/css/main.01c18250.css",
-    "main.js": "/kidsapp/static/js/main.41948831.js",
+    "main.css": "/kidsapp/static/css/main.5546d821.css",
+    "main.js": "/kidsapp/static/js/main.e1108e08.js",
     "static/media/Caw.png": "/kidsapp/static/media/Caw.e3d43d6968ce7ccaf6f1.png",
     "static/media/Hourse.png": "/kidsapp/static/media/Hourse.7c805612a7d64ae8b88b.png",
     "static/media/chiken.png": "/kidsapp/static/media/chiken.40f8d3fd86fdb1388063.png",
     "static/media/Cat.png": "/kidsapp/static/media/Cat.846edff82106877b64cb.png",
+    "static/media/alBg.webp": "/kidsapp/static/media/alBg.2748dc6da9fb52841037.webp",
     "static/media/Dog.png": "/kidsapp/static/media/Dog.c3e7caec425cc074852c.png",
+    "static/media/mainBg.png": "/kidsapp/static/media/mainBg.66d1aae6ff4666a4556c.png",
+    "static/media/coBg.webp": "/kidsapp/static/media/coBg.353b85c00f731aecce84.webp",
     "static/media/kazakhstan.jpg": "/kidsapp/static/media/kazakhstan.86a5e89ee97116873f8d.jpg",
     "static/media/australia.jpg": "/kidsapp/static/media/australia.d87e7d7735f50d779b83.jpg",
     "static/media/oae.jpg": "/kidsapp/static/media/oae.3d972735f45aca3d0040.jpg",
@@ -111,11 +114,11 @@
     "static/media/э.mp3": "/kidsapp/static/media/э.1ba9a9fd838df4f0afc0.mp3",
     "static/media/к.mp3": "/kidsapp/static/media/к.d6259f8661b43e1b8070.mp3",
     "index.html": "/kidsapp/index.html",
-    "main.01c18250.css.map": "/kidsapp/static/css/main.01c18250.css.map",
-    "main.41948831.js.map": "/kidsapp/static/js/main.41948831.js.map"
+    "main.5546d821.css.map": "/kidsapp/static/css/main.5546d821.css.map",
+    "main.e1108e08.js.map": "/kidsapp/static/js/main.e1108e08.js.map"
   },
   "entrypoints": [
-    "static/css/main.01c18250.css",
-    "static/js/main.41948831.js"
+    "static/css/main.5546d821.css",
+    "static/js/main.e1108e08.js"
   ]
 }
