@@ -1,8 +1,14 @@
-body {
-    background-color: rgb(255, 255, 255);
-}
-
 .container {
     max-width: 1400px;
-    margin:  0 auto;
+    margin: 0 auto;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.arrow a {
+    color: rgb(255, 255, 255);
 }
