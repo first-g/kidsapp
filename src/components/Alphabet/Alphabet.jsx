@@ -3,8 +3,8 @@ import { Howl } from "howler";
 import { alphabet } from "../../data/alphabet";
 import "./Alphabet.css";
 import { Link } from "react-router-dom";
-import ImgBack from '../img/93634.png'
-import ImgGo from '../img/png-transparent-computer-icons-arrow-yellow-forward-angle-text-trademark-removebg-preview (1).png'
+import ImgBack from "../img/93634.png";
+import ImgGo from "../img/png-transparent-computer-icons-arrow-yellow-forward-angle-text-trademark-removebg-preview (1).png";
 const Alphabet = () => {
   const playSound = (src) => {
     const sound = new Howl({
@@ -16,8 +16,16 @@ const Alphabet = () => {
 
   return (
     <div className="alphabet">
-     <Link to={'/'}><div className="Back"><img src={ImgBack} alt="" className="ImgBack" /></div></Link>
-     <Link to={'/countries'}><div className="go"><img src={ImgGo} alt="" className="ImgGo" /></div></Link>
+      <Link to={"/"}>
+        <div className="Back">
+          <img src={ImgBack} alt="" className="ImgBack" />
+        </div>
+      </Link>
+      <Link to={"/countries"}>
+        <div className="go">
+          <img src={ImgGo} alt="" className="ImgGo" />
+        </div>
+      </Link>
 
       <h1>Алфавит</h1>
       <div className="alphabet__main">
