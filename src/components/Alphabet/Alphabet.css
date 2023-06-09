@@ -1,7 +1,20 @@
 .alphabet {
+<<<<<<< HEAD
   text-align: center;
   font-size: 60px;
   padding: 0px 10px;
+=======
+    text-align: center;
+    font-size: 60px;
+    padding: 0px 10px;
+    background: url('../../assets/alBg.webp') no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+
+.alphabet__container {
+    padding-top: 20px;
+>>>>>>> 8b320984bbb22bd53b03e770a0f77ab3c07ffc50
 }
 
 .alphabet__main {
@@ -13,6 +26,7 @@
 }
 
 .alphabet__button {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,6 +39,22 @@
   height: 220px;
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
   border-radius: 10px;
+=======
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    border-radius: 10px;
+    animation: btn__animate 8s ease-in-out infinite 1s;
+>>>>>>> 8b320984bbb22bd53b03e770a0f77ab3c07ffc50
 }
 
 .alphabet__button h3 {
@@ -34,6 +64,7 @@
 .alphabet__button p {
   font-size: 20px;
 }
+<<<<<<< HEAD
 .Back {
   width: 64px;
   height: 64px;
@@ -52,3 +83,18 @@
 .ImgGo {
   width: 120px;
 }
+=======
+
+
+@keyframes btn__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 40%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+>>>>>>> 8b320984bbb22bd53b03e770a0f77ab3c07ffc50
