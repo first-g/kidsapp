@@ -1,18 +1,15 @@
 import React from "react";
 import "./Loader.css";
-import { BallTriangle } from  'react-loader-spinner'
+import { RotatingLines } from "react-loader-spinner";
 
 const Loader = () => {
   return (
     <div>
-      <BallTriangle
-        height={100}
-        width={100}
-        radius={5}
-        color="#4fa94d"
-        ariaLabel="ball-triangle-loading"
-        wrapperClass={{}}
-        wrapperStyle=""
+      <RotatingLines
+        strokeColor="grey"
+        strokeWidth="5"
+        animationDuration="0.75"
+        width="96"
         visible={true}
       />
     </div>

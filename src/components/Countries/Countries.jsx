@@ -1,14 +1,26 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./Countries.css";
 import { Howl } from "howler";
 import { countries } from "../../data/countries";
 import { Link } from "react-router-dom";
 import ImgBack from "../img/93634.png";
-import ImgGo from "../img/png-transparent-computer-icons-arrow-yellow-forward-angle-text-trademark-removebg-preview (1).png";
+// import ImgGo from "../img/png-transparent-computer-icons-arrow-yellow-forward-angle-text-trademark-removebg-preview (1).png";
 import Loader from "../Loader/Loader";
 import { RightCircleOutlined, CloseCircleOutlined } from "@ant-design/icons";
 
 const Countries = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const t = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => {
+      clearTimeout(t);
+    };
+  });
+
   const playSound = (src) => {
     const sound = new Howl({
       src,
@@ -16,23 +28,23 @@ const Countries = () => {
     });
     sound.play();
   };
+
   return (
     <div className="country_main">
-      <Loader />
+      {/* <Loader /> */}
       <Link to={"/"}>
         <div className="BackC">
           <img src={ImgBack} alt="" className="ImgBackC" />
         </div>
       </Link>
-      <Link to={"/animals"}>
+      {/* <Link to={"/animals"}>
         <div className="goC">
           <img src={ImgGo} alt="" className="ImgGoC" />
         </div>
-      </Link>
+      </Link> */}
 
-      <h1>Countries</h1>
       <div className="countries_main">
-        {countries.map((el, index) => {
+        {/* {countries.map((el, index) => {
           return (
             <div
               key={index}
@@ -43,8 +55,9 @@ const Countries = () => {
               <p>{el.name}</p>
             </div>
           );
-        })}
+        })} */}
         <div className="country">
+          <h1>Countries</h1>
           <div className="container">
             <div className="country__body">
               <div className="arrow">
@@ -63,8 +76,16 @@ const Countries = () => {
                       className="country_button"
                       onClick={() => playSound(el.sound)}
                     >
-                      <img src={el.img} alt="" className="flag" />
-                      <p>{el.name}</p>
+                      {loading ? (
+                        <>
+                          <Loader />
+                        </>
+                      ) : (
+                        <>
+                          <img src={el.img} alt="" className="flag" />
+                          <p>{el.name}</p>
+                        </>
+                      )}
                     </div>
                   );
                 })}

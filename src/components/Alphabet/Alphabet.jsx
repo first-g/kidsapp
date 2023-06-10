@@ -18,11 +18,11 @@ const Alphabet = () => {
 
   return (
     <div className="alphabet">
-      <Link to={"/"}>
+      {/* <Link to={"/"}>
         <div className="Back">
           <img src={ImgBack} alt="" className="ImgBack" />
         </div>
-      </Link>
+      </Link> */}
       <Link to={"/countries"}>
         <div className="go">
           <img src={ImgGo} alt="" className="ImgGo" />
@@ -31,7 +31,7 @@ const Alphabet = () => {
 
       <h1>Алфавит</h1>
       <div className="alphabet__main">
-        {alphabet.map((el, index) => {
+        {/* {alphabet.map((el, index) => {
           return (
             <div
               onClick={() => playSound(el.sound)}
@@ -43,7 +43,7 @@ const Alphabet = () => {
               <p>{el.word}</p>
             </div>
           );
-        })}
+        })} */}
 
         <div className="container">
           <div className="alphabet__container">

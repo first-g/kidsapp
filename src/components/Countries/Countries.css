@@ -5,6 +5,12 @@
   font-size: 60px;
   padding-top: 20px;
 }
+.country h1{
+  color: white;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
 
 .flag {
   width: 300px;
