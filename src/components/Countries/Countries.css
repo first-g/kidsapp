@@ -33,7 +33,7 @@
   color: white;
   margin: 10px;
 }
-<<<<<<< HEAD
+
 .BackC {
   width: 64px;
   height: 64px;
@@ -55,7 +55,7 @@
 .ImgGoC {
   width: 120px;
 }
-=======
+
 @keyframes btn__animate {
   0% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -67,4 +67,4 @@
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
->>>>>>> 8b320984bbb22bd53b03e770a0f77ab3c07ffc50
+

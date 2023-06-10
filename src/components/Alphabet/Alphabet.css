@@ -1,9 +1,9 @@
 .alphabet {
-<<<<<<< HEAD
+
   text-align: center;
   font-size: 60px;
   padding: 0px 10px;
-=======
+
     text-align: center;
     font-size: 60px;
     padding: 0px 10px;
@@ -14,7 +14,6 @@
 
 .alphabet__container {
     padding-top: 20px;
->>>>>>> 8b320984bbb22bd53b03e770a0f77ab3c07ffc50
 }
 
 .alphabet__main {

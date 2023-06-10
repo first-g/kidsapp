@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -7,7 +7,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
-=======
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -22,4 +22,4 @@ body {
 .arrow a {
     color: rgb(255, 255, 255);
 }
->>>>>>> 8b320984bbb22bd53b03e770a0f77ab3c07ffc50
+

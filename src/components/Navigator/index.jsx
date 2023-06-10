@@ -1,35 +1,36 @@
-<<<<<<< HEAD
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navigator.css";
 export const MainNavigator = () => {
+  // return (
+  //   <div className="MainNavigatorC">
+  //     <Link to={"/alphabet"}>
+  //       <button className="Btn  ">Алфабит</button>
+  //     </Link>
+  //     <Link to={"/countries"}>
+  //       <button className="Btn">Страны</button>
+  //     </Link>
+  //     <Link to={"/animals"}>
+  //       <button className="Btn">Животные</button>
+  //     </Link>
   return (
-    <div className="MainNavigatorC">
-      <Link to={"/alphabet"}>
-        <button className="Btn  ">Алфабит</button>
-      </Link>
-      <Link to={"/countries"}>
-        <button className="Btn">Страны</button>
-      </Link>
-      <Link to={"/animals"}>
-        <button className="Btn">Животные</button>
-      </Link>
-=======
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Navigator.css'
-export const MainNavigator = () => {
-  return (
-    <div className='MainNavigator'>
+    <div className="MainNavigator">
       <div className="container">
         <div className="main__body">
-          <Link to={'/kidsapp/alphabet'}><button className='Btn'>Алфавит</button></Link>
-          <Link to={'/kidsapp/countries'}><button className='Btn'>Страны</button></Link>
-          <Link to={'/kidsapp/animals'}><button className='Btn'>Животные</button></Link>
-          <Link to={'/kidsapp/quiz'}><button className='Btn'>Тест</button></Link>
+          <Link to={"/kidsapp/alphabet"}>
+            <button className="Btn">Алфавит</button>
+          </Link>
+          <Link to={"/kidsapp/countries"}>
+            <button className="Btn">Страны</button>
+          </Link>
+          <Link to={"/kidsapp/animals"}>
+            <button className="Btn">Животные</button>
+          </Link>
+          <Link to={"/kidsapp/quiz"}>
+            <button className="Btn">Тест</button>
+          </Link>
         </div>
       </div>
->>>>>>> 8b320984bbb22bd53b03e770a0f77ab3c07ffc50
     </div>
   );
 };

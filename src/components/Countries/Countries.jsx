@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import ImgBack from "../img/93634.png";
 import ImgGo from "../img/png-transparent-computer-icons-arrow-yellow-forward-angle-text-trademark-removebg-preview (1).png";
 import Loader from "../Loader/Loader";
-import { Link } from "react-router-dom";
 import { RightCircleOutlined, CloseCircleOutlined } from "@ant-design/icons";
 
 const Countries = () => {
