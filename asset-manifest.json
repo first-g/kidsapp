@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kidsapp/static/css/main.adeae5d9.css",
-    "main.js": "/kidsapp/static/js/main.4b070c21.js",
+    "main.js": "/kidsapp/static/js/main.90221ce4.js",
     "static/media/Caw.png": "/kidsapp/static/media/Caw.e3d43d6968ce7ccaf6f1.png",
     "static/media/Hourse.png": "/kidsapp/static/media/Hourse.7c805612a7d64ae8b88b.png",
     "static/media/chiken.png": "/kidsapp/static/media/chiken.40f8d3fd86fdb1388063.png",
@@ -117,10 +117,10 @@
     "static/media/к.mp3": "/kidsapp/static/media/к.d6259f8661b43e1b8070.mp3",
     "index.html": "/kidsapp/index.html",
     "main.adeae5d9.css.map": "/kidsapp/static/css/main.adeae5d9.css.map",
-    "main.4b070c21.js.map": "/kidsapp/static/js/main.4b070c21.js.map"
+    "main.90221ce4.js.map": "/kidsapp/static/js/main.90221ce4.js.map"
   },
   "entrypoints": [
     "static/css/main.adeae5d9.css",
-    "static/js/main.4b070c21.js"
+    "static/js/main.90221ce4.js"
   ]
 }
