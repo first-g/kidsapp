@@ -3,9 +3,8 @@ import "./Animals.css";
 import { animal } from "../../data/Animal";
 import { Howl } from "howler";
 import { Link } from "react-router-dom";
-import ImgBack from "../img/93634.png";
-import ImgGo from "../img/png-transparent-computer-icons-arrow-yellow-forward-angle-text-trademark-removebg-preview (1).png";
 import Loader from "../Loader/Loader";
+import { RightCircleOutlined, CloseCircleOutlined } from "@ant-design/icons";
 
 export const Animals = () => {
   const [loading, setLoading] = useState(true);
@@ -29,18 +28,16 @@ export const Animals = () => {
   };
   return (
     <div className="Animals">
-      <Link to={"/kidsapp"}>
-        <div className="Back">
-          <img src={ImgBack} alt="" className="ImgBack" />
-        </div>
-      </Link>
-      <Link to={"/kidsapp/alphabet"}>
-        <div className="go">
-          <img src={ImgGo} alt="" className="ImgGo" />
-        </div>
-      </Link>
+      <div className="container">
+      <div className="arrow">
+        <Link to={"/kidsapp"}>
+          <CloseCircleOutlined />
+        </Link>
+        <Link to={"/kidsapp/quiz"}>
+          <RightCircleOutlined />
+        </Link>
+      </div>
 
-      <h1>Животные</h1>
       <br />
       <div className="Animal_MainBlock">
         {animal.map((el, index) => {
@@ -63,6 +60,7 @@ export const Animals = () => {
             </div>
           );
         })}
+      </div>
       </div>
     </div>
   );

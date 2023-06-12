@@ -31,33 +31,9 @@ const Countries = () => {
 
   return (
     <div className="country_main">
-      {/* <Loader /> */}
-      <Link to={"/"}>
-        <div className="BackC">
-          <img src={ImgBack} alt="" className="ImgBackC" />
-        </div>
-      </Link>
-      {/* <Link to={"/animals"}>
-        <div className="goC">
-          <img src={ImgGo} alt="" className="ImgGoC" />
-        </div>
-      </Link> */}
 
       <div className="countries_main">
-        {/* {countries.map((el, index) => {
-          return (
-            <div
-              key={index}
-              className="country_button"
-              onClick={() => playSound(el.sound)}
-            >
-              <img src={el.img} alt="" className="flag" />
-              <p>{el.name}</p>
-            </div>
-          );
-        })} */}
         <div className="country">
-          <h1>Countries</h1>
           <div className="container">
             <div className="country__body">
               <div className="arrow">

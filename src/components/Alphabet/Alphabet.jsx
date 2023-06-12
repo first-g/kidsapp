@@ -23,13 +23,6 @@ const Alphabet = () => {
           <img src={ImgBack} alt="" className="ImgBack" />
         </div>
       </Link> */}
-      <Link to={"/countries"}>
-        <div className="go">
-          <img src={ImgGo} alt="" className="ImgGo" />
-        </div>
-      </Link>
-
-      <h1>Алфавит</h1>
       <div className="alphabet__main">
         {/* {alphabet.map((el, index) => {
           return (

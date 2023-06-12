@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './Quiz.css'
+import { Link } from "react-router-dom";
+import { RightCircleOutlined, CloseCircleOutlined } from "@ant-design/icons";
 
 const Quiz = () => {
   const [current, setCurrent] = useState(0);
@@ -54,38 +56,48 @@ const Quiz = () => {
     }
   };
 
-  const restart= () => {
+  const restart = () => {
     setCurrent(0);
     setScore(0);
     setShowScore(false);
   };
 
   return (
-    <div>
-      {showScore ? (
-        <div>
-          <h2>Натыйжалар</h2>
-          <p>сиз {questions.length}төн {score} тура жооп алдыңыз</p>
-          <button className='sad' onClick={restart}>Пройти тест заново</button>
-        </div>
-      ) : (
-        <div>
-          <h2>Тест</h2>
-          <div>
-            <p>
-              {questions.length} суроонун {current + 1}:
-            </p>
-            <p>{questions[current].questionText}</p>
-            <div className='cont'>
-              {questions[current].answerOptions.map((answerOption, index) => (
-                <button className='dt' key={index} onClick={() => Click(answerOption.isCorrect)}>
-                  {answerOption.answerText}
-                </button>
-              ))}
+    <div className='quiz'>
+      <div className="container">
+        <div className="quiz__body">
+          <div className="arrow">
+            <Link to={"/kidsapp"}>
+              <CloseCircleOutlined />
+            </Link>
+            <Link to={"/kidsapp/quiz"}>
+              <RightCircleOutlined />
+            </Link>
+          </div>
+          <div className="quiz__main">
+          {showScore ? (
+            <div className='quiz__res'>
+              <p>сиз {questions.length}төн {score} тура жооп алдыңыз</p>
+              <button className='sad' onClick={restart}>Пройти тест заново</button>
             </div>
+          ) : (
+            <div className='quiz__content'>
+              <p className='quiz__count'>
+                {questions.length} суроонун {current + 1}:
+              </p>
+              <p className='quiz__text'>{questions[current].questionText}</p>
+              <div className='quiz__answers'>
+                {questions[current].answerOptions.map((answerOption, index) => (
+                  <button className='dt' key={index} onClick={() => Click(answerOption.isCorrect)}>
+                    {answerOption.answerText}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }

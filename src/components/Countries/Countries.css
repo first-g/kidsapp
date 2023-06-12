@@ -1,4 +1,4 @@
-.country {
+.country_main {
   background: url('../../assets/coBg.webp') no-repeat;
   background-size: cover;
   background-position: 0%;
@@ -40,28 +40,6 @@
   margin: 10px;
 }
 
-.BackC {
-  width: 64px;
-  height: 64px;
-  position: fixed;
-  margin-left: -780px;
-  margin-top: 130px;
-}
-.ImgBackC {
-  width: 64px;
-}
-.goC {
-  width: 64px;
-  height: 64px;
-  position: fixed;
-  justify-items: right;
-  margin-left: 620px;
-  margin-top: 130px;
-}
-.ImgGoC {
-  width: 120px;
-}
-
 @keyframes btn__animate {
   0% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -71,6 +49,16 @@
   }
   100% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+@media (max-width: 720px) {
+  .flag {
+    width: 160px;
+    height: 120px;
+  }
+  .country_button p {
+    font-size: 30px;
   }
 }
 

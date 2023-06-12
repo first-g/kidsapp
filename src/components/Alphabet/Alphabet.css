@@ -3,10 +3,6 @@
   text-align: center;
   font-size: 60px;
   padding: 0px 10px;
-
-    text-align: center;
-    font-size: 60px;
-    padding: 0px 10px;
     background: url('../../assets/alBg.webp') no-repeat;
     background-size: cover;
     background-position: 0%;
@@ -37,20 +33,7 @@
   height: 220px;
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
   border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    cursor: pointer;
-    color: white;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
-    border-radius: 10px;
-    animation: btn__animate 8s ease-in-out infinite 1s;
+  animation: btn__animate 8s ease-in-out infinite 1s;
 }
 
 .alphabet__button h3 {
@@ -59,24 +42,6 @@
 
 .alphabet__button p {
   font-size: 20px;
-}
-.Back {
-  width: 64px;
-  height: 64px;
-  position: fixed;
-}
-.ImgBack {
-  width: 64px;
-}
-.go {
-  width: 64px;
-  height: 64px;
-  position: fixed;
-  justify-items: right;
-  margin-left: 1410px;
-}
-.ImgGo {
-  width: 120px;
 }
 
 
@@ -90,4 +55,14 @@
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
+}
+
+@media (max-width: 600px) {
+  .alphabet__button {
+    width: 120px;
+    height: 160px;
+  }
+  .alphabet__button h3 {
+    font-size: 30px;
+  }
 }

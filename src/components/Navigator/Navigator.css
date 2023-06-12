@@ -18,7 +18,7 @@
 }
 
 .main__body {
-  padding-top: 300px;
+  padding-top: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,8 +27,19 @@
 }
 
 .Btn {
-  width: 300px;
+  margin: 0 auto;
+  width: 200px;
   height: 300px;
   border-radius: 20px;
   font-size: 30px;
+}
+
+@media (max-width: 630px) {
+  .Btn {
+    margin: 0 auto;
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 30px;
+  }
 }
