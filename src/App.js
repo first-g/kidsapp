@@ -6,21 +6,28 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { MainNavigator } from "./components/Navigator";
 import Quiz from "./components/Quiz/Quiz";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Router>
-//         <Routes>
-//           <Route path="/" element={<MainNavigator />} />
-//           <Route path="/alphabet" element={<Alphabet />} />
-//           <Route path="/countries" element={<Countries />} />
-//           <Route path="/animals" element={<Animals />} />
-//         </Routes>
-//       </Router>
-//     </div>
-//   );
-// }
+import kidsMusic from './music/kids.mp3';
+import { Howl } from "howler";
+import { useEffect, useRef } from "react";
+
 function App() {
+  const soundRef = useRef(null);
+
+  useEffect(() => {
+    const sound = new Howl({
+      src: [kidsMusic],
+      html5: true,
+      loop: true,
+    });
+
+    soundRef.current = sound;
+    soundRef.current.volume(0.2)
+    soundRef.current.play();
+
+    return () => {
+      soundRef.current.stop();
+    };
+  }, []);
   return (
     <div className="App">
       <Router>
