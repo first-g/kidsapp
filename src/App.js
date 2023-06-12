@@ -5,27 +5,22 @@ import Countries from "./components/Countries/Countries";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { MainNavigator } from "./components/Navigator";
 import Quiz from "./components/Quiz/Quiz";
-
 import kidsMusic from './music/kids.mp3';
 import { Howl } from "howler";
-import { useEffect, useRef } from "react";
+import { useEffect} from "react";
 
 function App() {
-  const soundRef = useRef(null);
-
   useEffect(() => {
     const sound = new Howl({
       src: [kidsMusic],
       html5: true,
       loop: true,
     });
-
-    soundRef.current = sound;
-    soundRef.current.volume(0.2)
-    soundRef.current.play();
+    sound.volume(0.1)
+    sound.play();
 
     return () => {
-      soundRef.current.stop();
+      sound.stop();
     };
   }, []);
   return (
