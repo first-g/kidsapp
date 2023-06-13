@@ -8,6 +8,12 @@ import Hourse from "../SoundAnimals/ImgAnimal/Hourse.png";
 import Hourse1 from "../SoundAnimals/Hourse.mp3";
 import Chicken from "../SoundAnimals/ImgAnimal/chiken.png";
 import Chicken1 from "../SoundAnimals/Chicken.mp3";
+
+import elphant from "../SoundAnimals/ImgAnimal/elphant.jpg";
+import bear from "../SoundAnimals/ImgAnimal/bear.jpg";
+import wolf from "../SoundAnimals/ImgAnimal/wolf.jpg";
+import fox from "../SoundAnimals/ImgAnimal/fox.jpg";
+
 export const animal = [
   {
     Name: "Мышык",
@@ -34,5 +40,25 @@ export const animal = [
     Name: "Тоок",
     sound: Chicken1,
     img: Chicken,
+  },
+  {
+    Name: "Пил",
+    sound: Chicken1,
+    img: elphant,
+  },
+  {
+    Name: "Түлкү",
+    sound: Chicken1,
+    img: fox,
+  },
+  {
+    Name: "Карышкыр",
+    sound: Chicken1,
+    img: wolf,
+  },
+  {
+    Name: "Аюу",
+    sound: Chicken1,
+    img: bear,
   },
 ];
