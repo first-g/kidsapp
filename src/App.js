@@ -18,7 +18,7 @@ function App() {
       src: [kidsMusic],
       autoplay: true,
       loop: true,
-      volume: 0.0
+      volume: 0.2
     });
 
     return () => {
