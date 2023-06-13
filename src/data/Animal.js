@@ -10,28 +10,28 @@ import Chicken from "../SoundAnimals/ImgAnimal/chiken.png";
 import Chicken1 from "../SoundAnimals/Chicken.mp3";
 export const animal = [
   {
-    Name: "Котёнок",
+    Name: "Мышык",
     sound: Animal1,
     img: Cat1,
   },
   {
-    Name: "Собачка",
+    Name: "Күчүк",
     sound: Animal2,
     img: Dog2,
   },
   {
-    Name: "Теленок",
+    Name: "Музоо",
     sound: Caw,
     img: Caw1,
   },
 
   {
-    Name: "Лошадка",
+    Name: "Жылкы",
     sound: Hourse1,
     img: Hourse,
   },
   {
-    Name: "Курица",
+    Name: "Тоок",
     sound: Chicken1,
     img: Chicken,
   },

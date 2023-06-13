@@ -17,7 +17,6 @@ const Alphabet = () => {
   return (
     <div className="alphabet">
       <div className="alphabet__main">
-
         <div className="container">
           <div className="alphabet__container">
             <div className="arrow">
