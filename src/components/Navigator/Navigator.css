@@ -6,6 +6,15 @@
   justify-content: center;
 }
 
+.leave {
+  background-color: rgb(182, 5, 5);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
 .Btn {
   width: 100px;
   height: 100px;

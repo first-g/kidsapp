@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./Navigator.css";
+import { AuthContext } from "../../context";
 
 export const MainNavigator = () => {
+  const { setIsAuth } = useContext(AuthContext)
+
+  const handleLogin = () => {
+    setIsAuth(false);
+    localStorage.setItem('isAuth', JSON.stringify(false))
+  }
+
   return (
     <div className="MainNavigator">
       <div className="container">
+      <button onClick={handleLogin} className="leave">Выйти</button>
         <div className="main__body">
           <Link to={"/kidsapp/alphabet"}>
             <button className="Btn">Алфавит</button>
