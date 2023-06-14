@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kidsapp/static/css/main.83110ae3.css",
-    "main.js": "/kidsapp/static/js/main.62e82e98.js",
+    "main.css": "/kidsapp/static/css/main.5d51978f.css",
+    "main.js": "/kidsapp/static/js/main.88a311a7.js",
     "static/media/Caw.png": "/kidsapp/static/media/Caw.e3d43d6968ce7ccaf6f1.png",
     "static/media/Hourse.png": "/kidsapp/static/media/Hourse.7c805612a7d64ae8b88b.png",
     "static/media/chiken.png": "/kidsapp/static/media/chiken.40f8d3fd86fdb1388063.png",
@@ -17,6 +17,7 @@
     "static/media/australia.jpg": "/kidsapp/static/media/australia.d87e7d7735f50d779b83.jpg",
     "static/media/oae.jpg": "/kidsapp/static/media/oae.3d972735f45aca3d0040.jpg",
     "static/media/new_zeland.jpg": "/kidsapp/static/media/new_zeland.f4b6acf0072a13518faa.jpg",
+    "static/media/bear.jpg": "/kidsapp/static/media/bear.4fd5d71bded1235fb299.jpg",
     "static/media/england.jpg": "/kidsapp/static/media/england.1aeb255d8863e51fcaf1.jpg",
     "static/media/spain.jpg": "/kidsapp/static/media/spain.e44d28253cfec77c8702.jpg",
     "static/media/kyrgyzstan.jpg": "/kidsapp/static/media/kyrgyzstan.9b40d7324a20fc53eccf.jpg",
@@ -31,6 +32,7 @@
     "static/media/usa.mp3": "/kidsapp/static/media/usa.a721e42a94e44ccd4eb2.mp3",
     "static/media/mongolia.jpg": "/kidsapp/static/media/mongolia.d52d5d6267c9187a5e7c.jpg",
     "static/media/korea.jpg": "/kidsapp/static/media/korea.be7467a3855405d2441a.jpg",
+    "static/media/fox.jpg": "/kidsapp/static/media/fox.4d96ea994283e0796ff7.jpg",
     "static/media/kanada.jpg": "/kidsapp/static/media/kanada.e9146430ea92e68fd040.jpg",
     "static/media/tagikstan.jpg": "/kidsapp/static/media/tagikstan.845a75736d4304f521aa.jpg",
     "static/media/taiwan.jpg": "/kidsapp/static/media/taiwan.39e0ab95e435fb8e7690.jpg",
@@ -61,6 +63,7 @@
     "static/media/uzbekstan.mp3": "/kidsapp/static/media/uzbekstan.82b913d63dc1a174847a.mp3",
     "static/media/italy.jpg": "/kidsapp/static/media/italy.a33694f4519df3e63b8b.jpg",
     "static/media/polsha.jpg": "/kidsapp/static/media/polsha.180346e2685842a51b9e.jpg",
+    "static/media/elphant.jpg": "/kidsapp/static/media/elphant.ac8a587798d4f6c38977.jpg",
     "static/media/england.mp3": "/kidsapp/static/media/england.960c1909eb24266d6616.mp3",
     "static/media/siria.mp3": "/kidsapp/static/media/siria.f70403bd21f523f9a75a.mp3",
     "static/media/spain.mp3": "/kidsapp/static/media/spain.ad329e9c4ea08a4bfdf5.mp3",
@@ -116,11 +119,11 @@
     "static/media/э.mp3": "/kidsapp/static/media/э.1ba9a9fd838df4f0afc0.mp3",
     "static/media/к.mp3": "/kidsapp/static/media/к.d6259f8661b43e1b8070.mp3",
     "index.html": "/kidsapp/index.html",
-    "main.83110ae3.css.map": "/kidsapp/static/css/main.83110ae3.css.map",
-    "main.62e82e98.js.map": "/kidsapp/static/js/main.62e82e98.js.map"
+    "main.5d51978f.css.map": "/kidsapp/static/css/main.5d51978f.css.map",
+    "main.88a311a7.js.map": "/kidsapp/static/js/main.88a311a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.83110ae3.css",
-    "static/js/main.62e82e98.js"
+    "static/css/main.5d51978f.css",
+    "static/js/main.88a311a7.js"
   ]
 }
