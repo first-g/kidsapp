@@ -14,16 +14,16 @@ export const MainNavigator = () => {
   return (
     <div className="MainNavigator">
       <div className="container">
-      <button onClick={handleLogin} className="leave">Выйти</button>
+      <button onClick={handleLogin} className="leave">Чыгуу</button>
         <div className="main__body">
           <Link to={"/kidsapp/alphabet"}>
             <button className="Btn">Алфавит</button>
           </Link>
           <Link to={"/kidsapp/countries"}>
-            <button className="Btn">Страны</button>
+            <button className="Btn">Өлкөлөр</button>
           </Link>
           <Link to={"/kidsapp/animals"}>
-            <button className="Btn">Животные</button>
+            <button className="Btn">Жаныбарлар</button>
           </Link>
           <Link to={"/kidsapp/quiz"}>
             <button className="Btn">Тест</button>

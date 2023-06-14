@@ -9,10 +9,16 @@
     gap: 20px;
 }
 
-.log,
 .pas {
     font-size: 30px;
     border: 1px solid teal;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.pas__v {
+    border: 2px solid red;
+    font-size: 30px;
     border-radius: 20px;
     padding: 10px 20px;
 }
