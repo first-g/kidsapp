@@ -77,8 +77,8 @@ const Quiz = () => {
           <div className="quiz__main">
           {showScore ? (
             <div className='quiz__res'>
-              <p>сиз {questions.length}төн {score} тура жооп алдыңыз</p>
-              <button className='sad' onClick={restart}>Пройти тест заново</button>
+              <p>Сиз {questions.length}төн {score} тура жооп алдыңыз</p>
+              <button className='sad' onClick={restart}>Тестти кайра өтүү</button>
             </div>
           ) : (
             <div className='quiz__content'>

@@ -17,16 +17,16 @@ export const MainNavigator = () => {
       <button onClick={handleLogin} className="leave">Чыгуу</button>
         <div className="main__body">
           <Link to={"/kidsapp/alphabet"}>
-            <button className="Btn">Алфавит</button>
+            <button className="Btn btn-1">Алфавит</button>
           </Link>
           <Link to={"/kidsapp/countries"}>
-            <button className="Btn">Өлкөлөр</button>
+            <button className="Btn btn-2">Өлкөлөр</button>
           </Link>
           <Link to={"/kidsapp/animals"}>
-            <button className="Btn">Жаныбарлар</button>
+            <button className="Btn btn-3">Жаныбарлар</button>
           </Link>
           <Link to={"/kidsapp/quiz"}>
-            <button className="Btn">Тест</button>
+            <button className="Btn btn-4">Тест</button>
           </Link>
         </div>
       </div>

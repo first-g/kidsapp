@@ -30,3 +30,17 @@
     color: white;
     padding: 10px 20px;
 }
+
+@media (max-width: 650px) {
+    .pas {
+        font-size: 23px;
+    }
+    
+    .pas__v {
+        font-size: 23px;
+    }
+    
+    .login__form button {
+        font-size: 23px;
+    }
+}
